@@ -1,1 +1,0 @@
-Hello! This is my RSA encryption and decryption practical using OpenSSL.
