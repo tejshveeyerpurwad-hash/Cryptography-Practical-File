@@ -9,36 +9,68 @@
 **Faculty:** Mr. Hirendra Singh Sengar
 **Academic Year:** 2026–27
 
-## Experiments
+## About
+
+This repository holds my practical work for the Cryptography and Network Security course. It covers classical ciphers, modern symmetric and asymmetric cryptography, hashing, digital signatures, certificates, network traffic analysis, password security, SSH, VPN and wireless security. Each experiment is in its own folder with a README, code or commands, screenshots and notes.
+
+## Experiment Index
 
 | No. | Folder | Title | Tool |
 |---|---|---|---|
-| 1 | Exp1_Caesar_Vigenere_RailFence | Caesar, Vigenere, Rail Fence | CrypTool |
-| 2 | Exp2_FrequencyAnalysis | Frequency Analysis | CrypTool |
-| 3 | Exp3_DES_AES | DES and AES | CrypTool |
-| 4 | Exp4_RSA_OpenSSL | RSA Key Gen & File Enc/Dec | OpenSSL |
-| 5 | Exp5_SHA256_DigitalSignature | SHA-256 & Digital Signature | OpenSSL |
-| 6 | Exp6_X509_Certificate | Self-Signed X.509 Cert | OpenSSL |
-| 7 | Exp7_RSA_DiffieHellman | RSA & Diffie-Hellman | Python/VS Code |
-| 8 | Exp8_AES_SHA256_MessageSecurity | AES + SHA-256 | Python/VS Code |
-| 9 | Exp9_PasswordHashing_Salting | Password Hashing & Salting | Python/VS Code |
-| 10 | Exp10_HTTPS_TLS_Wireshark | HTTPS/TLS Capture | Wireshark |
+| 1 | Exp1_Caesar_Vigenere_RailFence | Caesar, Vigenere and Rail Fence Ciphers | CrypTool |
+| 2 | Exp2_FrequencyAnalysis | Frequency Analysis of Classical Ciphers | CrypTool |
+| 3 | Exp3_DES_AES | DES and AES Comparison | CrypTool |
+| 4 | Exp4_RSA_OpenSSL | RSA Key Generation and File Encryption/Decryption | OpenSSL |
+| 5 | Exp5_SHA256_DigitalSignature | SHA-256 Hashing and Digital Signatures | OpenSSL |
+| 6 | Exp6_X509_Certificate | Self-Signed X.509 Certificate | OpenSSL |
+| 7 | Exp7_RSA_DiffieHellman | RSA and Diffie-Hellman Algorithms | VS Code / Python |
+| 8 | Exp8_AES_SHA256_MessageSecurity | AES Encryption and SHA-256 Message Security | VS Code / Python |
+| 9 | Exp9_PasswordHashing_Salting | Password Hashing With and Without Salt | VS Code / Python |
+| 10 | Exp10_HTTPS_TLS_Wireshark | HTTPS Traffic and TLS Handshake Analysis | Wireshark |
 | 11 | Exp11_VPN_Traffic_Analysis | VPN Traffic Analysis | Wireshark |
-| 12 | Exp12_Secure_Insecure_Protocols | Secure vs Insecure Protocols | Wireshark |
-| 13 | Exp13_JohnTheRipper_PasswordAudit | Password Auditing | Kali/John |
-| 14 | Exp14_SSH_Passwordless_Authentication | SSH Passwordless Auth | Kali/OpenSSH |
-| 15 | Exp15_OpenVPN_Configuration | OpenVPN Config | Kali/OpenVPN |
-| 16 | Exp16_WPA2_Wireless_Network | WPA2-AES Wireless | Packet Tracer |
+| 12 | Exp12_Secure_Insecure_Protocols | Secure and Insecure Protocol Analysis | Wireshark |
+| 13 | Exp13_JohnTheRipper_PasswordAudit | Password Auditing with John the Ripper | Kali Linux |
+| 14 | Exp14_SSH_Passwordless_Authentication | SSH/RSA Key Generation and Passwordless Authentication | Kali Linux |
+| 15 | Exp15_OpenVPN_Configuration | Secure VPN Configuration with OpenVPN | Kali Linux |
+| 16 | Exp16_WPA2_Wireless_Network | Secure Wireless Network with WPA2-AES | Cisco Packet Tracer |
 
-## Setup
+## Technologies
+
+Python, CrypTool, OpenSSL, Wireshark, Kali Linux, John the Ripper, OpenSSH, OpenVPN, Cisco Packet Tracer.
+
+## Running Python Experiments
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+cd Exp7_RSA_DiffieHellman\Codes
+python RSA.py
+python diffie_hellman.py
+```
+
+Experiments 8 and 9 are run similarly from their folders.
+
+## Execution Status
+
+- Verified locally: Experiments 7, 8 and 9 (Python).
+- Pending manual execution: 1-6 (OpenSSL not installed here), 10-12 (Wireshark), 13-15 (Kali Linux), 16 (Packet Tracer).
+- No screenshots have been fabricated. Genuine capture instructions are in SCREENSHOT_GUIDE.md.
+
+## Repository Layout
+
+```
+.
+├── Exp1_.../ ... Exp16_.../
+├── README.md
+├── SCREENSHOT_GUIDE.md
+├── FINAL_SUBMISSION_CHECKLIST.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Notes
-- OpenSSL not installed in this environment; Exp4-6 require manual OpenSSL commands.
-- GUI experiments (1,2,3,10,11,12,15,16) require manual execution.
-- Do not commit private keys (see .gitignore).
-- Results marked VERIFIED only where actually executed here.
+
+- Private keys, certificates and captures are ignored by .gitignore.
+- Sample data uses harmless test values only.
+- Reference material used for structure and wording includes the course lab manual and standard tool documentation.
