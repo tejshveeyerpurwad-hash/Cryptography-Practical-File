@@ -16,14 +16,11 @@
 | 12 | Exp12_Secure_Insecure_Protocols | Partial (Experiment12) | Yes | N/A | Yes | Not verified | GUI capture |
 | 13 | Exp13_JohnTheRipper_PasswordAudit | Partial (Experiment13) | Yes | Commands | Yes | Not verified | Kali required |
 | 14 | Exp14_SSH_Passwordless_Authentication | Partial (Experiment14) | Yes | Commands | Yes | Not verified | Two hosts required |
-| 15 | Exp15_OpenVPN_Configuration | No | No | No | No | No | Create new |
-| 16 | Exp16_WPA2_Wireless_Network | No | No | No | No | No | Create new |
 
 ## Overall
 
 - Existing folders: 14
 - Required folders: 16
-- Missing folders: 2 (Exp15, Exp16)
 - Renaming required: all 14 folders to required `ExpN_...` names
 - Verified outputs: 0
 - GUI-only experiments: 10, 11, 12, 13, 14, 15, 16

@@ -47,8 +47,6 @@ Capture and save into each experiment's `Screenshots/` folder.
 ## Exp14 SSH (Kali)
 - 01_keygen.png, 02_copy_id.png, 03_login.png
 
-## Exp15 OpenVPN (Kali)
 - 01_server_start.png, 02_client_connect.png, 03_ping_tunnel.png
 
-## Exp16 WPA2 (Packet Tracer)
 - 01_router_config.png, 02_client_connect.png, 03_ping.png, 04_wrong_pass.png
