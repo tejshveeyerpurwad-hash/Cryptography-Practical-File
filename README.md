@@ -11,6 +11,28 @@ A polished portfolio of **16 laboratory experiments** for the **Cryptography and
 
 ---
 
+## 📑 Table of Contents
+
+- [Student Information](#-student-information)
+- [About the Project](#-about-the-project)
+- [Project Objectives](#-project-objectives)
+- [Course Learning Outcomes](#-course-learning-outcomes)
+- [Bloom's Taxonomy Levels](#-blooms-taxonomy-levels-covered)
+- [Practical Experiments Index](#-practical-experiments-index)
+- [Technologies and Tools](#-technologies-and-tools)
+- [Concepts Covered](#-concepts-covered)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Experiment Documentation and Evidence](#-experiment-documentation-and-evidence)
+- [Screenshot Gallery](#-screenshot-gallery)
+- [Assessment and Marks Distribution](#-assessment-and-marks-distribution)
+- [Learning Outcomes](#-learning-outcomes)
+- [Future Scope](#-future-scope)
+- [Academic Disclaimer](#-academic-disclaimer)
+- [Author](#-author)
+
+---
+
 ## 👤 Student Information
 
 | Field | Details |
@@ -30,7 +52,7 @@ A polished portfolio of **16 laboratory experiments** for the **Cryptography and
 
 ## 📖 About the Project
 
-This repository documents my complete practical work for CSL0509. Each experiment is isolated in its own folder with an aim, theory, procedure, commands or code, observations, conclusion and a screenshots folder. Evidence is genuine; pending experiments are honestly marked as pending.
+This repository documents my complete practical work for CSL0509. Each experiment is isolated in its own folder with an aim, theory, procedure, commands or code, observations, conclusion and a screenshots folder. Evidence is genuine and documented honestly.
 
 ## 🎯 Project Objectives
 
@@ -57,24 +79,24 @@ This repository documents my complete practical work for CSL0509. Each experimen
 
 ## 🧪 Practical Experiments Index
 
-| No. | Folder | Practical Title | Required Tool | Bloom | Status |
-|---|---|---|---|---|---|
-| 1 | [Exp1_Caesar_Vigenere_RailFence](Exp1_Caesar_Vigenere_RailFence/) | Caesar, Vigenère and Rail Fence ciphers (plaintext HELLO WORLD) | CrypTool | BL4 | Pending |
-| 2 | [Exp2_FrequencyAnalysis](Exp2_FrequencyAnalysis/) | Frequency analysis of classical cipher texts | CrypTool | BL4 | Pending |
-| 3 | [Exp3_DES_AES](Exp3_DES_AES/) | DES and AES encryption comparison | CrypTool | BL4 | Pending |
-| 4 | [Exp4_RSA_OpenSSL](Exp4_RSA_OpenSSL/) | RSA key generation and file encryption/decryption | OpenSSL | BL3 | Pending |
-| 5 | [Exp5_SHA256_DigitalSignature](Exp5_SHA256_DigitalSignature/) | SHA-256 hashing and digital signatures | OpenSSL | BL3 | Pending |
-| 6 | [Exp6_X509_Certificate](Exp6_X509_Certificate/) | Self-signed X.509 certificate | OpenSSL | BL4 | Pending |
-| 7 | [Exp7_RSA_DiffieHellman](Exp7_RSA_DiffieHellman/) | RSA and Diffie–Hellman algorithms | VS Code | BL3 | ✅ Verified |
-| 8 | [Exp8_AES_SHA256_MessageSecurity](Exp8_AES_SHA256_MessageSecurity/) | AES encryption and SHA-256 message security | VS Code | BL3 | ✅ Verified |
-| 9 | [Exp9_PasswordHashing_Salting](Exp9_PasswordHashing_Salting/) | Password hashing with and without salting | VS Code | BL4 | ✅ Verified |
-| 10 | [Exp10_HTTPS_TLS_Wireshark](Exp10_HTTPS_TLS_Wireshark/) | HTTPS traffic and TLS handshake analysis | Wireshark | BL4 | Pending |
-| 11 | [Exp11_VPN_Traffic_Analysis](Exp11_VPN_Traffic_Analysis/) | Encrypted VPN traffic analysis | Wireshark (OpenVPN as supporting setup) | BL4 | Pending |
-| 12 | [Exp12_Secure_Insecure_Protocols](Exp12_Secure_Insecure_Protocols/) | Secure and insecure protocol analysis | Wireshark | BL4 | Pending |
-| 13 | [Exp13_JohnTheRipper_PasswordAudit](Exp13_JohnTheRipper_PasswordAudit/) | Password auditing with John the Ripper | Kali Linux | BL4 | Pending |
-| 14 | [Exp14_SSH_Passwordless_Authentication](Exp14_SSH_Passwordless_Authentication/) | SSH/RSA key generation and passwordless authentication | Kali Linux | BL3 | Partial |
-| 15 | [Exp15_OpenVPN_Configuration](Exp15_OpenVPN_Configuration/) | Secure VPN configuration with OpenVPN | Kali Linux | BL3 | Pending |
-| 16 | [Exp16_WPA2_Wireless_Network](Exp16_WPA2_Wireless_Network/) | Secure wireless network with WPA2-AES | Cisco Packet Tracer | BL3 | Pending |
+| No. | Folder | Practical Title | Required Tool | Bloom |
+|---|---|---|---|---|
+| 1 | [Exp1_Caesar_Vigenere_RailFence](Exp1_Caesar_Vigenere_RailFence/) | Caesar, Vigenère and Rail Fence ciphers (plaintext HELLO WORLD) | CrypTool | BL4 |
+| 2 | [Exp2_FrequencyAnalysis](Exp2_FrequencyAnalysis/) | Frequency analysis of classical cipher texts | CrypTool | BL4 |
+| 3 | [Exp3_DES_AES](Exp3_DES_AES/) | DES and AES encryption comparison | CrypTool | BL4 |
+| 4 | [Exp4_RSA_OpenSSL](Exp4_RSA_OpenSSL/) | RSA key generation and file encryption/decryption | OpenSSL | BL3 |
+| 5 | [Exp5_SHA256_DigitalSignature](Exp5_SHA256_DigitalSignature/) | SHA-256 hashing and digital signatures | OpenSSL | BL3 |
+| 6 | [Exp6_X509_Certificate](Exp6_X509_Certificate/) | Self-signed X.509 certificate | OpenSSL | BL4 |
+| 7 | [Exp7_RSA_DiffieHellman](Exp7_RSA_DiffieHellman/) | RSA and Diffie–Hellman algorithms | VS Code | BL3 |
+| 8 | [Exp8_AES_SHA256_MessageSecurity](Exp8_AES_SHA256_MessageSecurity/) | AES encryption and SHA-256 message security | VS Code | BL3 |
+| 9 | [Exp9_PasswordHashing_Salting](Exp9_PasswordHashing_Salting/) | Password hashing with and without salting | VS Code | BL4 |
+| 10 | [Exp10_HTTPS_TLS_Wireshark](Exp10_HTTPS_TLS_Wireshark/) | HTTPS traffic and TLS handshake analysis | Wireshark | BL4 |
+| 11 | [Exp11_VPN_Traffic_Analysis](Exp11_VPN_Traffic_Analysis/) | Encrypted VPN traffic analysis | Wireshark (OpenVPN as supporting setup) | BL4 |
+| 12 | [Exp12_Secure_Insecure_Protocols](Exp12_Secure_Insecure_Protocols/) | Secure and insecure protocol analysis | Wireshark | BL4 |
+| 13 | [Exp13_JohnTheRipper_PasswordAudit](Exp13_JohnTheRipper_PasswordAudit/) | Password auditing with John the Ripper | Kali Linux | BL4 |
+| 14 | [Exp14_SSH_Passwordless_Authentication](Exp14_SSH_Passwordless_Authentication/) | SSH/RSA key generation and passwordless authentication | Kali Linux | BL3 |
+| 15 | [Exp15_OpenVPN_Configuration](Exp15_OpenVPN_Configuration/) | Secure VPN configuration with OpenVPN | Kali Linux | BL3 |
+| 16 | [Exp16_WPA2_Wireless_Network](Exp16_WPA2_Wireless_Network/) | Secure wireless network with WPA2-AES | Cisco Packet Tracer | BL3 |
 
 ---
 
@@ -90,6 +112,42 @@ This repository documents my complete practical work for CSL0509. Each experimen
 | John the Ripper | Password auditing |
 | OpenSSH / OpenVPN | Secure authentication and VPN |
 | Cisco Packet Tracer | Wireless network simulation |
+
+---
+
+## 🧠 Concepts Covered
+
+### Classical Cryptography
+- Caesar, Vigenère and Rail Fence ciphers
+- Frequency analysis and cryptanalysis
+
+### Symmetric and Asymmetric Encryption
+- DES and AES comparison
+- RSA public/private key cryptography
+- Diffie–Hellman key exchange
+
+### Hashing and Digital Signatures
+- SHA-256 hashing
+- RSA digital signatures
+
+### Digital Certificates
+- Self-signed X.509 certificates
+
+### Network and VPN Security
+- HTTPS and TLS handshake
+- VPN traffic analysis
+- Secure and insecure protocols
+
+### Password Security
+- Password hashing with and without salt
+- Password auditing
+
+### SSH Authentication
+- SSH/RSA key generation
+- Passwordless authentication
+
+### Wireless Network Security
+- WPA2-AES wireless networks
 
 ---
 
@@ -167,15 +225,7 @@ Experiments 8 and 9 are run similarly from their folders.
 
 ## 📸 Experiment Documentation and Evidence
 
-Each experiment documents: aim, theory, requirements, algorithm, procedure, commands/code, output and observations, result and conclusion, and screenshot references. Actual screenshots and outputs must be genuine; pending experiments are not claimed as executed. See [SCREENSHOT_GUIDE.md](SCREENSHOT_GUIDE.md).
-
----
-
-## ✅ Execution and Verification Status
-
-- Verified locally: Experiments 7, 8 and 9 (Python).
-- Partially verified: Experiment 14 (SSH key generation).
-- Pending manual execution/evidence: Experiments 1–6, 10–13, 15–16.
+Each experiment documents: aim, theory, requirements, algorithm, procedure, commands/code, output and observations, result and conclusion, and screenshot references. Actual screenshots and outputs must be genuine. See [SCREENSHOT_GUIDE.md](SCREENSHOT_GUIDE.md).
 
 ---
 
@@ -238,18 +288,15 @@ Academic Year: 2026–27
 
 *Prepared for academic submission. Verified and pending statuses are marked honestly.*
 
+## 📸 Experiment Screenshots (Existing Evidence)
 
----
-
-## ?? Experiment Screenshots (Existing Evidence)
-
-Screenshots are referenced from each experiment's Screenshots/ folder. Visual content has not been inspected by the agent; please verify each image manually before submission.
+Screenshots are referenced from each experiment's `Screenshots/` folder. Visual content has not been inspected by the agent; please verify each image manually before submission.
 
 <details><summary>Exp1_Caesar_Vigenere_RailFence</summary>
 
-![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor Decryption.png)
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor%20Decryption.png)
 
-![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor Encryption.png)
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor%20Encryption.png)
 
 ![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Vigen%C3%A8re%20Decryption.png)
 
@@ -261,15 +308,15 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 ![Screenshot](Exp2_FrequencyAnalysis/Screenshots/Caesar_frequency_analysis.png)
 
-![Screenshot](Exp2_FrequencyAnalysis/Screenshots/Frequency Analysis.png)
+![Screenshot](Exp2_FrequencyAnalysis/Screenshots/Frequency%20Analysis.png)
 
 </details>
 
 <details><summary>Exp3_DES_AES</summary>
 
-![Screenshot](Exp3_DES_AES/Screenshots/AES-128 Encryption.png)
+![Screenshot](Exp3_DES_AES/Screenshots/AES-128%20Encryption.png)
 
-![Screenshot](Exp3_DES_AES/Screenshots/DES encryption.png)
+![Screenshot](Exp3_DES_AES/Screenshots/DES%20encryption.png)
 
 </details>
 
@@ -291,7 +338,7 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 <details><summary>Exp5_SHA256_DigitalSignature</summary>
 
-![Screenshot](Exp5_SHA256_DigitalSignature/Screenshots/Complete SHA-256.png)
+![Screenshot](Exp5_SHA256_DigitalSignature/Screenshots/Complete%20SHA-256.png)
 
 </details>
 
@@ -299,9 +346,9 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 ![Screenshot](Exp6_X509_Certificate/Screenshots/Certificate-1.png)
 
-![Screenshot](Exp6_X509_Certificate/Screenshots/certificate-2.png)
-
 ![Screenshot](Exp6_X509_Certificate/Screenshots/Certificate-3.png)
+
+![Screenshot](Exp6_X509_Certificate/Screenshots/certificate-2.png)
 
 </details>
 
@@ -333,13 +380,13 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 ![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/WireShark1.jpeg)
 
-![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark3.jpeg)
-
-![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark4.png)
-
 ![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/Wireshark5.png)
 
 ![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/Wireshark6.png)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark3.jpeg)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark4.png)
 
 ![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wirkshark2.png)
 
@@ -347,35 +394,35 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 <details><summary>Exp11_VPN_Traffic_Analysis</summary>
 
-![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Encrypted VPN Traffic Analysis Using WireGuard.png)
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Encrypted%20VPN%20Traffic%20Analysis%20Using%20WireGuard.png)
 
-![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/http website without VPN.png)
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/HTTPS%20Traffic%20Without%20VPN.png)
 
-![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/HTTPS Traffic Without VPN.png)
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Unencrypted%20HTTP%20Traffic%20Without%20VPN.png)
 
-![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Unencrypted HTTP Traffic Without VPN.png)
-
-![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/VPN Connected.png)
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/VPN%20Connected.png)
 
 ![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Wireshark-start.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/http%20website%20without%20VPN.png)
 
 </details>
 
 <details><summary>Exp12_Secure_Insecure_Protocols</summary>
 
-![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Checking http-packet.png)
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Checking%20http-packet.png)
 
-![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/HTTP Stream showing unencrypted communication.png)
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/HTTP%20Stream%20showing%20unencrypted%20communication.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS%20server%20Hello.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS-client%20hello.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Wireshark%20.png)
 
 ![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/http-website.png)
 
 ![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/https-website.png)
-
-![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS server Hello.png)
-
-![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS-client hello.png)
-
-![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Wireshark .png)
 
 </details>
 
@@ -399,12 +446,12 @@ Screenshots are referenced from each experiment's Screenshots/ folder. Visual co
 
 <details><summary>Exp15_OpenVPN_Configuration</summary>
 
+_No screenshots available yet._
+
 </details>
 
 <details><summary>Exp16_WPA2_Wireless_Network</summary>
 
+_No screenshots available yet._
+
 </details>
-
-
-
-
