@@ -1,0 +1,35 @@
+# Secrets / keys
+*.pem
+*.key
+*.crt
+*.csr
+private_key*
+id_rsa*
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Captures / binaries
+*.pcap
+*.pcapng
+*.bin
+encrypted.bin
+signature.bin
+
+# Temp
+*.tmp
+
+# Duplicate nested folders (legacy)
+Cryptography-Practical-File/
+Cryptography-Practical-File-main/
