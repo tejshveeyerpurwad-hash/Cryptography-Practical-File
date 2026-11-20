@@ -5,12 +5,13 @@
 ![Network Security](https://img.shields.io/badge/Domain-Network%20Security-informational)
 ![Experiments](https://img.shields.io/badge/Experiments-16-success)
 ![Academic](https://img.shields.io/badge/Type-Academic%20Project-orange)
+![Marks](https://img.shields.io/badge/Activity%20Marks-40-blueviolet)
 
-A polished, hands-on collection of **16 laboratory experiments** for the **Cryptography and Network Security** course. The repository covers classical ciphers, modern symmetric and asymmetric cryptography, hashing, digital signatures, X.509 certificates, Python implementations, network traffic analysis, password security, SSH, VPN and wireless security.
+A polished portfolio of **16 laboratory experiments** for the **Cryptography and Network Security** course (CSL0509). It covers classical ciphers, modern symmetric and asymmetric cryptography, hashing, digital signatures, X.509 certificates, Python implementations, network traffic analysis, password security, SSH, VPN and wireless security.
 
 ---
 
-## 📋 Student & Course Information
+## 👤 Student Information
 
 | Field | Details |
 |---|---|
@@ -20,12 +21,16 @@ A polished, hands-on collection of **16 laboratory experiments** for the **Crypt
 | Semester | V |
 | Section | D |
 | University | ITM University, Gwalior |
-| Subject | Cryptography and Network Security |
+| Course | Cryptography |
 | Course Code | CSL0509 |
 | Faculty | Mr. Hirendra Singh Sengar |
 | Academic Year | 2026–27 |
 
 ---
+
+## 📖 About the Project
+
+This repository documents my complete practical work for CSL0509. Each experiment is isolated in its own folder with an aim, theory, procedure, commands or code, observations, conclusion and a screenshots folder. Evidence is genuine; pending experiments are honestly marked as pending.
 
 ## 🎯 Project Objectives
 
@@ -36,28 +41,40 @@ A polished, hands-on collection of **16 laboratory experiments** for the **Crypt
 - Explore password security, SSH authentication and wireless security.
 - Document every experiment with clear procedures, code and evidence.
 
+## 🎓 Course Learning Outcomes
+
+- Apply cryptographic algorithms to protect data.
+- Analyse network traffic and security protocols.
+- Evaluate password and authentication mechanisms.
+- Configure and verify secure communication systems.
+
+## 🧠 Bloom's Taxonomy Levels Covered
+
+- **BL3 – Apply:** Experiments 4, 5, 7, 8, 14, 15, 16
+- **BL4 – Analyze:** Experiments 1, 2, 3, 6, 9, 10, 11, 12, 13
+
 ---
 
-## 🧪 Experiment Index
+## 🧪 Practical Experiments Index
 
-| No. | Folder | Title | Tools / Technology | Status |
-|---|---|---|---|---|
-| 1 | Exp1_Caesar_Vigenere_RailFence | Caesar, Vigenère and Rail Fence Ciphers | CrypTool | Pending GUI |
-| 2 | Exp2_FrequencyAnalysis | Frequency Analysis of Classical Ciphers | CrypTool | Pending GUI |
-| 3 | Exp3_DES_AES | DES and AES Comparison | CrypTool | Pending GUI |
-| 4 | Exp4_RSA_OpenSSL | RSA Key Generation and File Encryption/Decryption | OpenSSL | Pending tool |
-| 5 | Exp5_SHA256_DigitalSignature | SHA-256 Hashing and Digital Signatures | OpenSSL | Pending tool |
-| 6 | Exp6_X509_Certificate | Self-Signed X.509 Certificate | OpenSSL | Pending tool |
-| 7 | Exp7_RSA_DiffieHellman | RSA and Diffie–Hellman Algorithms | VS Code / Python | ✅ Verified |
-| 8 | Exp8_AES_SHA256_MessageSecurity | AES Encryption and SHA-256 Message Security | VS Code / Python | ✅ Verified |
-| 9 | Exp9_PasswordHashing_Salting | Password Hashing With and Without Salt | VS Code / Python | ✅ Verified |
-| 10 | Exp10_HTTPS_TLS_Wireshark | HTTPS Traffic and TLS Handshake Analysis | Wireshark | Pending GUI |
-| 11 | Exp11_VPN_Traffic_Analysis | VPN Traffic Analysis | Wireshark | Pending GUI |
-| 12 | Exp12_Secure_Insecure_Protocols | Secure and Insecure Protocol Analysis | Wireshark | Pending GUI |
-| 13 | Exp13_JohnTheRipper_PasswordAudit | Password Auditing with John the Ripper | Kali Linux | Pending tool |
-| 14 | Exp14_SSH_Passwordless_Authentication | SSH/RSA Key Generation and Passwordless Authentication | Kali Linux | Partially verified |
-| 15 | Exp15_OpenVPN_Configuration | Secure VPN Configuration with OpenVPN | Kali Linux | Pending tool |
-| 16 | Exp16_WPA2_Wireless_Network | Secure Wireless Network with WPA2-AES | Cisco Packet Tracer | Pending tool |
+| No. | Folder | Practical Title | Required Tool | Bloom | Status |
+|---|---|---|---|---|---|
+| 1 | [Exp1_Caesar_Vigenere_RailFence](Exp1_Caesar_Vigenere_RailFence/) | Caesar, Vigenère and Rail Fence ciphers (plaintext HELLO WORLD) | CrypTool | BL4 | Pending |
+| 2 | [Exp2_FrequencyAnalysis](Exp2_FrequencyAnalysis/) | Frequency analysis of classical cipher texts | CrypTool | BL4 | Pending |
+| 3 | [Exp3_DES_AES](Exp3_DES_AES/) | DES and AES encryption comparison | CrypTool | BL4 | Pending |
+| 4 | [Exp4_RSA_OpenSSL](Exp4_RSA_OpenSSL/) | RSA key generation and file encryption/decryption | OpenSSL | BL3 | Pending |
+| 5 | [Exp5_SHA256_DigitalSignature](Exp5_SHA256_DigitalSignature/) | SHA-256 hashing and digital signatures | OpenSSL | BL3 | Pending |
+| 6 | [Exp6_X509_Certificate](Exp6_X509_Certificate/) | Self-signed X.509 certificate | OpenSSL | BL4 | Pending |
+| 7 | [Exp7_RSA_DiffieHellman](Exp7_RSA_DiffieHellman/) | RSA and Diffie–Hellman algorithms | VS Code | BL3 | ✅ Verified |
+| 8 | [Exp8_AES_SHA256_MessageSecurity](Exp8_AES_SHA256_MessageSecurity/) | AES encryption and SHA-256 message security | VS Code | BL3 | ✅ Verified |
+| 9 | [Exp9_PasswordHashing_Salting](Exp9_PasswordHashing_Salting/) | Password hashing with and without salting | VS Code | BL4 | ✅ Verified |
+| 10 | [Exp10_HTTPS_TLS_Wireshark](Exp10_HTTPS_TLS_Wireshark/) | HTTPS traffic and TLS handshake analysis | Wireshark | BL4 | Pending |
+| 11 | [Exp11_VPN_Traffic_Analysis](Exp11_VPN_Traffic_Analysis/) | Encrypted VPN traffic analysis | Wireshark (OpenVPN as supporting setup) | BL4 | Pending |
+| 12 | [Exp12_Secure_Insecure_Protocols](Exp12_Secure_Insecure_Protocols/) | Secure and insecure protocol analysis | Wireshark | BL4 | Pending |
+| 13 | [Exp13_JohnTheRipper_PasswordAudit](Exp13_JohnTheRipper_PasswordAudit/) | Password auditing with John the Ripper | Kali Linux | BL4 | Pending |
+| 14 | [Exp14_SSH_Passwordless_Authentication](Exp14_SSH_Passwordless_Authentication/) | SSH/RSA key generation and passwordless authentication | Kali Linux | BL3 | Partial |
+| 15 | [Exp15_OpenVPN_Configuration](Exp15_OpenVPN_Configuration/) | Secure VPN configuration with OpenVPN | Kali Linux | BL3 | Pending |
+| 16 | [Exp16_WPA2_Wireless_Network](Exp16_WPA2_Wireless_Network/) | Secure wireless network with WPA2-AES | Cisco Packet Tracer | BL3 | Pending |
 
 ---
 
@@ -80,10 +97,22 @@ A polished, hands-on collection of **16 laboratory experiments** for the **Crypt
 
 ```
 Cryptography-Practical-File/
-├── Exp1_Caesar_Vigenere_RailFence/
-├── Exp2_FrequencyAnalysis/
-├── ...
-├── Exp16_WPA2_Wireless_Network/
+├── Exp1_Caesar_Vigenere_RailFence/ (README.md, Screenshots/)
+├── Exp2_FrequencyAnalysis/ (README.md, Screenshots/)
+├── Exp3_DES_AES/ (README.md, Screenshots/)
+├── Exp4_RSA_OpenSSL/ (README.md, Screenshots/)
+├── Exp5_SHA256_DigitalSignature/ (README.md, Screenshots/)
+├── Exp6_X509_Certificate/ (README.md, Screenshots/)
+├── Exp7_RSA_DiffieHellman/ (README.md, Screenshots/, Codes/)
+├── Exp8_AES_SHA256_MessageSecurity/ (README.md, Screenshots/)
+├── Exp9_PasswordHashing_Salting/ (README.md, Screenshots/)
+├── Exp10_HTTPS_TLS_Wireshark/ (README.md, Screenshots/)
+├── Exp11_VPN_Traffic_Analysis/ (README.md, Screenshots/)
+├── Exp12_Secure_Insecure_Protocols/ (README.md, Screenshots/)
+├── Exp13_JohnTheRipper_PasswordAudit/ (README.md, Screenshots/)
+├── Exp14_SSH_Passwordless_Authentication/ (README.md, Screenshots/)
+├── Exp15_OpenVPN_Configuration/ (README.md, Screenshots/)
+├── Exp16_WPA2_Wireless_Network/ (README.md, Screenshots/)
 ├── README.md
 ├── SCREENSHOT_GUIDE.md
 ├── FINAL_SUBMISSION_CHECKLIST.md
@@ -92,19 +121,16 @@ Cryptography-Practical-File/
 └── .gitignore
 ```
 
-Each experiment folder contains its own `README.md` and a `Screenshots/` folder.
+Every experiment folder contains a `README.md` and a `Screenshots/` directory.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.x
-- OpenSSL
-- Wireshark
-- CrypTool
-- Kali Linux (VM)
-- Cisco Packet Tracer
+
+- **Windows:** Python 3.x, OpenSSL (via installer), Wireshark, CrypTool.
+- **Linux/Kali:** `sudo apt install openssl wireshark john openvpn openssh-server`.
 
 ### Clone
 
@@ -115,7 +141,8 @@ cd Cryptography-Practical-File
 
 ### Run Python Experiments
 
-```bash
+**Windows:**
+```powershell
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -124,16 +151,53 @@ python RSA.py
 python diffie_hellman.py
 ```
 
+**Linux:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cd Exp7_RSA_DiffieHellman/Codes
+python3 RSA.py
+python3 diffie_hellman.py
+```
+
 Experiments 8 and 9 are run similarly from their folders.
 
 ---
 
-## 📸 Evidence and Outputs
+## 📸 Experiment Documentation and Evidence
 
-- Only genuine screenshots and verified outputs are documented.
-- Pending experiments are clearly labelled as pending.
-- No fabricated evidence is included.
-- Screenshot naming and capture steps are in `SCREENSHOT_GUIDE.md`.
+Each experiment documents: aim, theory, requirements, algorithm, procedure, commands/code, output and observations, result and conclusion, and screenshot references. Actual screenshots and outputs must be genuine; pending experiments are not claimed as executed. See [SCREENSHOT_GUIDE.md](SCREENSHOT_GUIDE.md).
+
+---
+
+## ✅ Execution and Verification Status
+
+- Verified locally: Experiments 7, 8 and 9 (Python).
+- Partially verified: Experiment 14 (SSH key generation).
+- Pending manual execution/evidence: Experiments 1–6, 10–13, 15–16.
+
+---
+
+## 📋 Final Submission Checklist
+
+- [x] All 16 experiment folders present
+- [x] Student details correct
+- [x] Tools and Bloom levels aligned with activity document
+- [x] Python experiments verified
+- [ ] OpenSSL experiments executed
+- [ ] CrypTool experiments executed
+- [ ] Wireshark captures collected
+- [ ] Kali Linux experiments executed
+- [ ] Packet Tracer experiment completed
+- [ ] All screenshots captured
+
+---
+
+## 📊 Assessment and Marks Distribution
+
+- Lab Experiments (GitHub Deployment – Problem Statements): **40 marks**
+- **Total: 40 marks**
 
 ---
 
@@ -146,9 +210,9 @@ Experiments 8 and 9 are run similarly from their folders.
 
 ---
 
-## ⚠️ Security and Academic Disclaimer
+## ⚠️ Academic Disclaimer
 
-This repository is for academic and educational purposes only. All experiments use safe, local test data. No real passwords or private keys are committed. Never reuse demonstration keys in production.
+This repository is for academic and educational purposes only. All experiments use safe, local test data. No real passwords or private keys are committed. Never reuse demonstration keys in production. Perform network and security testing only on systems you own or are authorized to test.
 
 ---
 
@@ -167,8 +231,9 @@ This repository is for academic and educational purposes only. All experiments u
 B.Tech AIML, Semester V, Section D  
 ITM University, Gwalior  
 Course: Cryptography (CSL0509)  
-Faculty: Mr. Hirendra Singh Sengar
+Faculty: Mr. Hirendra Singh Sengar  
+Academic Year: 2026–27
 
 ---
 
-*Prepared for academic submission. All work is documented honestly with verified and pending statuses clearly marked.*
+*Prepared for academic submission. Verified and pending statuses are marked honestly.*
