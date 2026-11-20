@@ -237,3 +237,173 @@ Academic Year: 2026–27
 ---
 
 *Prepared for academic submission. Verified and pending statuses are marked honestly.*
+
+
+---
+
+## ?? Experiment Screenshots (Existing Evidence)
+
+Screenshots are referenced from each experiment's Screenshots/ folder. Visual content has not been inspected by the agent; please verify each image manually before submission.
+
+<details><summary>Exp1_Caesar_Vigenere_RailFence</summary>
+
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor Decryption.png)
+
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Caesor Encryption.png)
+
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Vigen%C3%A8re%20Decryption.png)
+
+![Screenshot](Exp1_Caesar_Vigenere_RailFence/Screenshots/Vigen%C3%A8re%20Encryption.png)
+
+</details>
+
+<details><summary>Exp2_FrequencyAnalysis</summary>
+
+![Screenshot](Exp2_FrequencyAnalysis/Screenshots/Caesar_frequency_analysis.png)
+
+![Screenshot](Exp2_FrequencyAnalysis/Screenshots/Frequency Analysis.png)
+
+</details>
+
+<details><summary>Exp3_DES_AES</summary>
+
+![Screenshot](Exp3_DES_AES/Screenshots/AES-128 Encryption.png)
+
+![Screenshot](Exp3_DES_AES/Screenshots/DES encryption.png)
+
+</details>
+
+<details><summary>Exp4_RSA_OpenSSL</summary>
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/Creating_Original_Message.png)
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/File_Verification.png)
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/RSA_File_Decryption.png)
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/RSA_File_Encryption.png)
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/RSA_Private_Key_Generation.png)
+
+![Screenshot](Exp4_RSA_OpenSSL/Screenshots/RSA_Public_Key_Generation.png)
+
+</details>
+
+<details><summary>Exp5_SHA256_DigitalSignature</summary>
+
+![Screenshot](Exp5_SHA256_DigitalSignature/Screenshots/Complete SHA-256.png)
+
+</details>
+
+<details><summary>Exp6_X509_Certificate</summary>
+
+![Screenshot](Exp6_X509_Certificate/Screenshots/Certificate-1.png)
+
+![Screenshot](Exp6_X509_Certificate/Screenshots/certificate-2.png)
+
+![Screenshot](Exp6_X509_Certificate/Screenshots/Certificate-3.png)
+
+</details>
+
+<details><summary>Exp7_RSA_DiffieHellman</summary>
+
+![Screenshot](Exp7_RSA_DiffieHellman/Screenshots/Diffie_hellman.png)
+
+![Screenshot](Exp7_RSA_DiffieHellman/Screenshots/RSA.png)
+
+</details>
+
+<details><summary>Exp8_AES_SHA256_MessageSecurity</summary>
+
+![Screenshot](Exp8_AES_SHA256_MessageSecurity/Screenshots/AES.png)
+
+![Screenshot](Exp8_AES_SHA256_MessageSecurity/Screenshots/HashVerification.png)
+
+</details>
+
+<details><summary>Exp9_PasswordHashing_Salting</summary>
+
+![Screenshot](Exp9_PasswordHashing_Salting/Screenshots/password_hashing_salt_or_without_salt.png)
+
+</details>
+
+<details><summary>Exp10_HTTPS_TLS_Wireshark</summary>
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/SecureConnection.png)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/WireShark1.jpeg)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark3.jpeg)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wireshark4.png)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/Wireshark5.png)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/Wireshark6.png)
+
+![Screenshot](Exp10_HTTPS_TLS_Wireshark/Screenshots/wirkshark2.png)
+
+</details>
+
+<details><summary>Exp11_VPN_Traffic_Analysis</summary>
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Encrypted VPN Traffic Analysis Using WireGuard.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/http website without VPN.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/HTTPS Traffic Without VPN.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Unencrypted HTTP Traffic Without VPN.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/VPN Connected.png)
+
+![Screenshot](Exp11_VPN_Traffic_Analysis/Screenshots/Wireshark-start.png)
+
+</details>
+
+<details><summary>Exp12_Secure_Insecure_Protocols</summary>
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Checking http-packet.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/HTTP Stream showing unencrypted communication.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/http-website.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/https-website.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS server Hello.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/TLS-client hello.png)
+
+![Screenshot](Exp12_Secure_Insecure_Protocols/Screenshots/Wireshark .png)
+
+</details>
+
+<details><summary>Exp13_JohnTheRipper_PasswordAudit</summary>
+
+![Screenshot](Exp13_JohnTheRipper_PasswordAudit/Screenshots/Part-1.jpg)
+
+![Screenshot](Exp13_JohnTheRipper_PasswordAudit/Screenshots/part-2.jpg)
+
+</details>
+
+<details><summary>Exp14_SSH_Passwordless_Authentication</summary>
+
+![Screenshot](Exp14_SSH_Passwordless_Authentication/Screenshots/part%20%281%29.jpeg)
+
+![Screenshot](Exp14_SSH_Passwordless_Authentication/Screenshots/part%20%282%29.jpeg)
+
+![Screenshot](Exp14_SSH_Passwordless_Authentication/Screenshots/part%20%283%29.jpeg)
+
+</details>
+
+<details><summary>Exp15_OpenVPN_Configuration</summary>
+
+</details>
+
+<details><summary>Exp16_WPA2_Wireless_Network</summary>
+
+</details>
+
+
+
