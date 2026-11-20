@@ -1,7 +1,15 @@
-# 🔐 Cryptography and Network Security — Practical Portfolio
+# 🔐 CryptoLab — Cryptography and Network Security Practical Implementation
 
-</details>
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Cryptography](https://img.shields.io/badge/Domain-Cryptography-informational)
+![Network Security](https://img.shields.io/badge/Domain-Network%20Security-informational)
+![Experiments](https://img.shields.io/badge/Experiments-14-success)
+![Academic](https://img.shields.io/badge/Type-Academic%20Project-orange)
+![Marks](https://img.shields.io/badge/Activity%20Marks-40-blueviolet)
 
+A polished portfolio of **14 laboratory experiments** for the **Cryptography and Network Security** course (CSL0509). It covers classical ciphers, modern symmetric and asymmetric cryptography, hashing, digital signatures, X.509 certificates, Python implementations, network traffic analysis, password security and SSH authentication.
+
+---
 
 ## 📑 Table of Contents
 
@@ -10,7 +18,7 @@
 - [Project Objectives](#-project-objectives)
 - [Course Learning Outcomes](#-course-learning-outcomes)
 - [Bloom's Taxonomy Levels](#-blooms-taxonomy-levels-covered)
-- [Practical Experiments Index](#-practical-experiments-index)
+- [Practical Experiments](#-practical-experiments)
 - [Technologies and Tools](#-technologies-and-tools)
 - [Concepts Covered](#-concepts-covered)
 - [Repository Structure](#-repository-structure)
@@ -44,16 +52,20 @@
 
 ## 📖 About the Project
 
-This repository documents my complete practical work for CSL0509. Each experiment is isolated in its own folder with an aim, theory, procedure, commands or code, observations, conclusion and a screenshots folder. Evidence is genuine and documented honestly.
+CryptoLab is an academic project developed to explore the fundamental concepts and practical applications of cryptography and network security. The repository consists of 14 experiments covering classical encryption techniques, modern cryptographic algorithms, hashing, digital signatures, digital certificates, network traffic analysis, password security and secure authentication. Each experiment focuses on understanding the underlying concepts through implementation, execution and observation using industry-relevant tools and technologies.
 
 ## 🎯 Project Objectives
 
-- Understand classical and modern cryptographic algorithms.
-- Implement and analyse RSA and Diffie–Hellman.
-- Perform hashing, digital signatures and certificate generation.
-- Analyse HTTPS/TLS, VPN and network protocol security.
-- Explore password security, SSH authentication and wireless security.
-- Document every experiment with clear procedures, code and evidence.
+- Study classical encryption techniques and their applications.
+- Understand symmetric and asymmetric cryptographic algorithms.
+- Implement and analyze RSA and Diffie–Hellman algorithms.
+- Perform data hashing and digital signature verification.
+- Generate and examine X.509 digital certificates.
+- Understand HTTPS communication and TLS handshakes.
+- Analyze encrypted and unencrypted network traffic.
+- Identify secure and insecure communication protocols.
+- Explore password security and auditing techniques.
+- Configure SSH key-based authentication between Linux systems.
 
 ## 🎓 Course Learning Outcomes
 
@@ -64,31 +76,29 @@ This repository documents my complete practical work for CSL0509. Each experimen
 
 ## 🧠 Bloom's Taxonomy Levels Covered
 
-- **BL3 – Apply:** Experiments 4, 5, 7, 8, 14, 15, 16
+- **BL3 – Apply:** Experiments 4, 5, 7, 8, 14
 - **BL4 – Analyze:** Experiments 1, 2, 3, 6, 9, 10, 11, 12, 13
 
 ---
 
-## 🧪 Practical Experiments Index
+## 🧪 Practical Experiments
 
-| No. | Folder | Practical Title | Required Tool | Bloom |
-|---|---|---|---|---|
-| 1 | [Exp1_Caesar_Vigenere_RailFence](Exp1_Caesar_Vigenere_RailFence/) | Caesar, Vigenère and Rail Fence ciphers (plaintext HELLO WORLD) | CrypTool | BL4 |
-| 2 | [Exp2_FrequencyAnalysis](Exp2_FrequencyAnalysis/) | Frequency analysis of classical cipher texts | CrypTool | BL4 |
-| 3 | [Exp3_DES_AES](Exp3_DES_AES/) | DES and AES encryption comparison | CrypTool | BL4 |
-| 4 | [Exp4_RSA_OpenSSL](Exp4_RSA_OpenSSL/) | RSA key generation and file encryption/decryption | OpenSSL | BL3 |
-| 5 | [Exp5_SHA256_DigitalSignature](Exp5_SHA256_DigitalSignature/) | SHA-256 hashing and digital signatures | OpenSSL | BL3 |
-| 6 | [Exp6_X509_Certificate](Exp6_X509_Certificate/) | Self-signed X.509 certificate | OpenSSL | BL4 |
-| 7 | [Exp7_RSA_DiffieHellman](Exp7_RSA_DiffieHellman/) | RSA and Diffie–Hellman algorithms | VS Code | BL3 |
-| 8 | [Exp8_AES_SHA256_MessageSecurity](Exp8_AES_SHA256_MessageSecurity/) | AES encryption and SHA-256 message security | VS Code | BL3 |
-| 9 | [Exp9_PasswordHashing_Salting](Exp9_PasswordHashing_Salting/) | Password hashing with and without salting | VS Code | BL4 |
-| 10 | [Exp10_HTTPS_TLS_Wireshark](Exp10_HTTPS_TLS_Wireshark/) | HTTPS traffic and TLS handshake analysis | Wireshark | BL4 |
-| 11 | [Exp11_VPN_Traffic_Analysis](Exp11_VPN_Traffic_Analysis/) | Encrypted VPN traffic analysis | Wireshark (OpenVPN as supporting setup) | BL4 |
-| 12 | [Exp12_Secure_Insecure_Protocols](Exp12_Secure_Insecure_Protocols/) | Secure and insecure protocol analysis | Wireshark | BL4 |
-| 13 | [Exp13_JohnTheRipper_PasswordAudit](Exp13_JohnTheRipper_PasswordAudit/) | Password auditing with John the Ripper | Kali Linux | BL4 |
-| 14 | [Exp14_SSH_Passwordless_Authentication](Exp14_SSH_Passwordless_Authentication/) | SSH/RSA key generation and passwordless authentication | Kali Linux | BL3 |
-| 15 | [Exp15_OpenVPN_Configuration](Exp15_OpenVPN_Configuration/) | Secure VPN configuration with OpenVPN | Kali Linux | BL3 |
-| 16 | [Exp16_WPA2_Wireless_Network](Exp16_WPA2_Wireless_Network/) | Secure wireless network with WPA2-AES | Cisco Packet Tracer | BL3 |
+| No. | Experiment Title | Tools / Technologies |
+|---|---|---|
+| 01 | Implementation of Caesar, Vigenère and Rail Fence Ciphers | CrypTool |
+| 02 | Frequency Analysis of Classical Ciphers | CrypTool |
+| 03 | Comparative Study of DES and AES Encryption | CrypTool |
+| 04 | RSA Key Generation and File Encryption/Decryption | OpenSSL |
+| 05 | SHA-256 Hashing and RSA Digital Signature Verification | OpenSSL |
+| 06 | Generation and Inspection of Self-Signed X.509 Certificates | OpenSSL |
+| 07 | Implementation of RSA and Diffie–Hellman Algorithms | VS Code |
+| 08 | AES Encryption and SHA-256 Hashing | VS Code |
+| 09 | Password Hashing With and Without Salt | VS Code |
+| 10 | HTTPS Traffic Capture and TLS Handshake Analysis | Wireshark |
+| 11 | Analysis of Encrypted VPN Traffic | Wireshark |
+| 12 | Identification of Secure and Insecure Communication Protocols | Wireshark |
+| 13 | Password Auditing and Password Strength Evaluation | Kali Linux, John the Ripper |
+| 14 | SSH/RSA Key Generation and Passwordless Authentication | Kali Linux, OpenSSH |
 
 ---
 
@@ -96,50 +106,43 @@ This repository documents my complete practical work for CSL0509. Each experimen
 
 | Technology | Purpose |
 |---|---|
-| Python 3.x | Algorithm implementations |
-| CrypTool | Classical and modern cipher experiments |
-| OpenSSL | RSA keys, hashing, signatures, certificates |
-| Wireshark | Packet capture and protocol analysis |
-| Kali Linux | Security testing environment |
+| Python | Implementation of cryptographic algorithms |
+| CrypTool | Classical and modern cryptography experiments |
+| OpenSSL | Encryption, hashing, RSA keys and certificates |
+| Wireshark | Network packet capture and protocol analysis |
+| Kali Linux | Security testing and Linux-based experiments |
 | John the Ripper | Password auditing |
-| OpenSSH / OpenVPN | Secure authentication and VPN |
-| Cisco Packet Tracer | Wireless network simulation |
+| OpenSSH | Secure remote authentication |
+| Windows / Linux | Experiment execution environments |
 
 ---
 
 ## 🧠 Concepts Covered
 
-### Classical Cryptography
-- Caesar, Vigenère and Rail Fence ciphers
-- Frequency analysis and cryptanalysis
-
-### Symmetric and Asymmetric Encryption
-- DES and AES comparison
-- RSA public/private key cryptography
+### 1. Cryptographic Algorithms
+- Classical substitution and transposition ciphers
+- Symmetric encryption: DES and AES
+- Asymmetric encryption: RSA
 - Diffie–Hellman key exchange
 
-### Hashing and Digital Signatures
+### 2. Data Integrity and Authentication
 - SHA-256 hashing
+- Password hashing and salting
 - RSA digital signatures
+- X.509 digital certificates
 
-### Digital Certificates
-- Self-signed X.509 certificates
-
-### Network and VPN Security
-- HTTPS and TLS handshake
-- VPN traffic analysis
+### 3. Network Security
+- HTTPS communication
+- TLS handshake analysis
+- VPN encryption
 - Secure and insecure protocols
+- Network packet inspection
 
-### Password Security
-- Password hashing with and without salt
+### 4. System Security
 - Password auditing
-
-### SSH Authentication
-- SSH/RSA key generation
-- Passwordless authentication
-
-### Wireless Network Security
-- WPA2-AES wireless networks
+- SSH key generation
+- Public-key authentication
+- Passwordless remote login
 
 ---
 
@@ -147,22 +150,22 @@ This repository documents my complete practical work for CSL0509. Each experimen
 
 ```
 Cryptography-Practical-File/
-├── Exp1_Caesar_Vigenere_RailFence/ (README.md, Screenshots/)
-├── Exp2_FrequencyAnalysis/ (README.md, Screenshots/)
-├── Exp3_DES_AES/ (README.md, Screenshots/)
-├── Exp4_RSA_OpenSSL/ (README.md, Screenshots/)
-├── Exp5_SHA256_DigitalSignature/ (README.md, Screenshots/)
-├── Exp6_X509_Certificate/ (README.md, Screenshots/)
-├── Exp7_RSA_DiffieHellman/ (README.md, Screenshots/, Codes/)
-├── Exp8_AES_SHA256_MessageSecurity/ (README.md, Screenshots/)
-├── Exp9_PasswordHashing_Salting/ (README.md, Screenshots/)
-├── Exp10_HTTPS_TLS_Wireshark/ (README.md, Screenshots/)
-├── Exp11_VPN_Traffic_Analysis/ (README.md, Screenshots/)
-├── Exp12_Secure_Insecure_Protocols/ (README.md, Screenshots/)
-├── Exp13_JohnTheRipper_PasswordAudit/ (README.md, Screenshots/)
-├── Exp14_SSH_Passwordless_Authentication/ (README.md, Screenshots/)
-├── Exp15_OpenVPN_Configuration/ (README.md, Screenshots/)
-├── Exp16_WPA2_Wireless_Network/ (README.md, Screenshots/)
+│
+├── Exp1_Caesar_Vigenere_RailFence/
+├── Exp2_FrequencyAnalysis/
+├── Exp3_DES_AES/
+├── Exp4_RSA_OpenSSL/
+├── Exp5_SHA256_DigitalSignature/
+├── Exp6_X509_Certificate/
+├── Exp7_RSA_DiffieHellman/
+├── Exp8_AES_SHA256_MessageSecurity/
+├── Exp9_PasswordHashing_Salting/
+├── Exp10_HTTPS_TLS_Wireshark/
+├── Exp11_VPN_Traffic_Analysis/
+├── Exp12_Secure_Insecure_Protocols/
+├── Exp13_JohnTheRipper_PasswordAudit/
+├── Exp14_SSH_Passwordless_Authentication/
+│
 ├── README.md
 ├── SCREENSHOT_GUIDE.md
 ├── FINAL_SUBMISSION_CHECKLIST.md
@@ -171,7 +174,7 @@ Cryptography-Practical-File/
 └── .gitignore
 ```
 
-Every experiment folder contains a `README.md` and a `Screenshots/` directory.
+Each experiment folder contains the corresponding practical work and its related files.
 
 ---
 
@@ -179,95 +182,50 @@ Every experiment folder contains a `README.md` and a `Screenshots/` directory.
 
 ### Prerequisites
 
-- **Windows:** Python 3.x, OpenSSL (via installer), Wireshark, CrypTool.
-- **Linux/Kali:** `sudo apt install openssl wireshark john openvpn openssh-server`.
+Install the required tools depending on the experiment you want to execute:
 
-### Clone
+- Python 3.x
+- CrypTool / CrypTool 2
+- OpenSSL
+- Wireshark
+- Kali Linux
+- John the Ripper
+- OpenSSH
+- Windows / Linux
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/tejshveeyerpurwad-hash/Cryptography-Practical-File.git
+```
+
+### Navigate to the Project Directory
+
+```bash
 cd Cryptography-Practical-File
 ```
 
-### Run Python Experiments
+### Check Tool Installation
 
-**Windows:**
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-cd Exp7_RSA_DiffieHellman\Codes
-python RSA.py
-python diffie_hellman.py
-```
-
-**Linux:**
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cd Exp7_RSA_DiffieHellman/Codes
-python3 RSA.py
-python3 diffie_hellman.py
+python --version
+openssl version
+ssh -V
 ```
 
-Experiments 8 and 9 are run similarly from their folders.
+Open the respective experiment directory and follow the instructions and files provided for that practical.
 
 ---
 
 ## 📸 Experiment Documentation and Evidence
 
-Each experiment documents: aim, theory, requirements, algorithm, procedure, commands/code, output and observations, result and conclusion, and screenshot references. Actual screenshots and outputs must be genuine. See [SCREENSHOT_GUIDE.md](SCREENSHOT_GUIDE.md).
+Each experiment documents: aim, theory, requirements, algorithm, procedure, commands/code, output and observations, result and conclusion, and screenshot references. Actual screenshots and outputs must be genuine.
 
 ---
 
-## 📊 Assessment and Marks Distribution
+## 📸 Screenshot Gallery
 
-- Lab Experiments (GitHub Deployment – Problem Statements): **40 marks**
-- **Total: 40 marks**
-
----
-
-## 🎓 Learning Outcomes
-
-- Practical understanding of encryption, hashing and key exchange.
-- Hands-on experience with OpenSSL, Wireshark and Python cryptography.
-- Awareness of weak passwords, insecure protocols and secure configurations.
-- Ability to document and verify laboratory work professionally.
-
----
-
-## ⚠️ Academic Disclaimer
-
-This repository is for academic and educational purposes only. All experiments use safe, local test data. No real passwords or private keys are committed. Never reuse demonstration keys in production. Perform network and security testing only on systems you own or are authorized to test.
-
----
-
-## 🔮 Future Scope
-
-- Web application security and OWASP Top 10
-- Ethical hacking and penetration testing
-- Security automation with Python
-- Digital forensics and incident response
-
----
-
-## 👤 Author
-
-**Tejshvini Yerpurwad**  
-B.Tech AIML, Semester V, Section D  
-ITM University, Gwalior  
-Course: Cryptography (CSL0509)  
-Faculty: Mr. Hirendra Singh Sengar  
-Academic Year: 2026–27
-
----
-
-*Prepared for academic submission.*
-
-## 📸 Experiment Screenshots (Existing Evidence)
-
-Screenshots are referenced from each experiment's `Screenshots/` folder. Visual content has not been inspected by the agent; please verify each image manually before submission.
+Screenshots are referenced from each experiment's `Screenshots/` folder. Visual content must be verified manually before submission.
 
 <details><summary>Exp1_Caesar_Vigenere_RailFence</summary>
 
@@ -421,16 +379,61 @@ Screenshots are referenced from each experiment's `Screenshots/` folder. Visual 
 
 </details>
 
-<details><summary>Exp15_OpenVPN_Configuration</summary>
+---
 
-_No screenshots available yet._
+## 📊 Assessment and Marks Distribution
 
-</details>
+- Lab Experiments (GitHub Deployment – Problem Statements): **40 marks**
+- **Total: 40 marks**
 
-<details><summary>Exp16_WPA2_Wireless_Network</summary>
+---
 
-_No screenshots available yet._
+## 🎓 Learning Outcomes
 
-</details>
+Through these experiments, the project provides practical exposure to:
 
+- Encryption and decryption techniques.
+- Cryptographic key generation and management.
+- Data integrity and authentication mechanisms.
+- Secure network communication.
+- Packet capture and traffic analysis.
+- Password security assessment.
+- Linux-based authentication mechanisms.
 
+---
+
+## 🔮 Future Scope
+
+The concepts explored in this repository provide a foundation for further study in areas such as:
+
+- Ethical Hacking and Penetration Testing
+- Network Security and Monitoring
+- Web Application Security
+- OWASP Top 10
+- Digital Forensics
+- Vulnerability Assessment
+- Security Automation using Python
+
+---
+
+## ⚠️ Academic Disclaimer
+
+This repository has been created for academic and educational purposes as part of practical coursework.
+
+All experiments involving network analysis, password auditing, and security testing should only be performed on systems and networks owned by the user or where proper authorization has been obtained.
+
+---
+
+## 👤 Author
+
+**Tejshvini Yerpurwad**
+
+B.Tech — Artificial Intelligence and Machine Learning (AIML)
+
+Cryptography and Network Security — Practical Coursework
+
+GitHub: [tejshveeyerpurwad-hash](https://github.com/tejshveeyerpurwad-hash)
+
+---
+
+*CryptoLab | Learning Cryptography Through Practical Implementation.*
