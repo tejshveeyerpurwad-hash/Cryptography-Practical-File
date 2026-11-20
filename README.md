@@ -1,15 +1,7 @@
 # 🔐 Cryptography and Network Security — Practical Portfolio
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Cryptography](https://img.shields.io/badge/Domain-Cryptography-informational)
-![Network Security](https://img.shields.io/badge/Domain-Network%20Security-informational)
-![Experiments](https://img.shields.io/badge/Experiments-16-success)
-![Academic](https://img.shields.io/badge/Type-Academic%20Project-orange)
-![Marks](https://img.shields.io/badge/Activity%20Marks-40-blueviolet)
+</details>
 
-A polished portfolio of **16 laboratory experiments** for the **Cryptography and Network Security** course (CSL0509). It covers classical ciphers, modern symmetric and asymmetric cryptography, hashing, digital signatures, X.509 certificates, Python implementations, network traffic analysis, password security, SSH, VPN and wireless security.
-
----
 
 ## 📑 Table of Contents
 
@@ -229,21 +221,6 @@ Each experiment documents: aim, theory, requirements, algorithm, procedure, comm
 
 ---
 
-## 📋 Final Submission Checklist
-
-- [x] All 16 experiment folders present
-- [x] Student details correct
-- [x] Tools and Bloom levels aligned with activity document
-- [x] Python experiments verified
-- [ ] OpenSSL experiments executed
-- [ ] CrypTool experiments executed
-- [ ] Wireshark captures collected
-- [ ] Kali Linux experiments executed
-- [ ] Packet Tracer experiment completed
-- [ ] All screenshots captured
-
----
-
 ## 📊 Assessment and Marks Distribution
 
 - Lab Experiments (GitHub Deployment – Problem Statements): **40 marks**
@@ -286,7 +263,7 @@ Academic Year: 2026–27
 
 ---
 
-*Prepared for academic submission. Verified and pending statuses are marked honestly.*
+*Prepared for academic submission.*
 
 ## 📸 Experiment Screenshots (Existing Evidence)
 
@@ -455,3 +432,5 @@ _No screenshots available yet._
 _No screenshots available yet._
 
 </details>
+
+
