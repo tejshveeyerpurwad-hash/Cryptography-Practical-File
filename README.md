@@ -17,7 +17,7 @@
 
 ## About My Practical File
 
-This repository contains my Cryptography practical file for the B.Tech AIML course. It has 14 lab experiments covering classical ciphers, modern encryption, hashing, digital signatures, certificates, network security, password security, and SSH authentication.
+This repository contains my Cryptography practical file for the B.Tech AIML course. It has 12 lab experiments covering classical ciphers, modern encryption, hashing, digital signatures, certificates, network security, and SSH authentication.
 
 ## Practical Experiments
 
@@ -35,8 +35,6 @@ This repository contains my Cryptography practical file for the B.Tech AIML cour
 | 10 | HTTPS Traffic Capture and TLS Handshake Analysis | Wireshark |
 | 11 | Analysis of Encrypted VPN Traffic | Wireshark |
 | 12 | Identification of Secure and Insecure Communication Protocols | Wireshark |
-| 13 | Password Auditing and Password Strength Evaluation | Kali Linux, John the Ripper |
-| 14 | SSH/RSA Key Generation and Passwordless Authentication | Kali Linux, OpenSSH |
 
 Each experiment folder contains the practical work done for that experiment.
 
@@ -46,9 +44,6 @@ Each experiment folder contains the practical work done for that experiment.
 - CrypTool
 - OpenSSL
 - Wireshark
-- Kali Linux
-- John the Ripper
-- OpenSSH
 - VS Code
 - Windows / Linux
 
@@ -68,8 +63,6 @@ Cryptography-Practical-File/
 ├── Exp10_HTTPS_TLS_Wireshark/
 ├── Exp11_VPN_Traffic_Analysis/
 ├── Exp12_Secure_Insecure_Protocols/
-├── Exp13_JohnTheRipper_PasswordAudit/
-├── Exp14_SSH_Passwordless_Authentication/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
