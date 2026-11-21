@@ -16,11 +16,9 @@
 | 12 Protocols | Wireshark | Yes | Yes | Needed | Needed | No (GUI) | Capture; 3 screenshots |
 | 13 John the Ripper | Kali + JtR | Yes | Yes | Needed | Needed | No (Kali) | Run; 2 screenshots |
 | 14 SSH Auth | Kali + OpenSSH | Yes | Yes | Needed | Needed | No (Kali/2 hosts) | Run; 3 screenshots |
-| 15 OpenVPN | Kali + OpenVPN | Yes | Yes | Needed | Needed | No (Kali/2 hosts) | Configure; 3 screenshots |
-| 16 WPA2-AES | Cisco Packet Tracer | Yes | Yes | Needed | Needed | No (GUI) | Configure; 4 screenshots |
 
 ## Global remaining
-- Install OpenSSL, CrypTool, Wireshark, Kali Linux, Cisco Packet Tracer.
+- Install OpenSSL, CrypTool, Wireshark, Kali Linux.
 - Capture all screenshots per SCREENSHOT_GUIDE.md.
 - Run GUI experiments and replace expected output with verified output.
 - Do not fabricate screenshots.

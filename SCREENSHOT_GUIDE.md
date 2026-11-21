@@ -46,7 +46,3 @@ Capture and save into each experiment's `Screenshots/` folder.
 
 ## Exp14 SSH (Kali)
 - 01_keygen.png, 02_copy_id.png, 03_login.png
-
-- 01_server_start.png, 02_client_connect.png, 03_ping_tunnel.png
-
-- 01_router_config.png, 02_client_connect.png, 03_ping.png, 04_wrong_pass.png
