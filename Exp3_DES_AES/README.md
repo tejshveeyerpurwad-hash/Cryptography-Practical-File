@@ -12,7 +12,7 @@ DES and AES are two encryption algorithms used to protect data from unauthorized
 Both algorithms convert readable data (plaintext) into an unreadable form (ciphertext). The original data can be recovered using the correct decryption key.
 
 ### 1. DES (Data Encryption Standard)
-DES is a symmetric encryption algorithm, which means the same key is used for encryption and decryption.
+DES is a symmetric encryption algorithm, meaning the same key is used for encryption and decryption.
 
 - It uses a 56-bit effective key.
 - It processes data in 64-bit blocks.

@@ -7,7 +7,7 @@ To implement Caesar, Vigenère, and Rail Fence ciphers using CrypTool and unders
 - CrypTool
 
 ## Introduction
-Encryption is a process of converting a normal readable message (plaintext) into a secret message (ciphertext) so that unauthorized people cannot easily understand it.
+Encryption means turning a normal readable message (plaintext) into a secret message (ciphertext) so others cannot easily read it.
 
 In this experiment, we use three traditional encryption techniques:
 
@@ -22,12 +22,12 @@ For example, if the key is 3:
 During decryption, the letters are shifted backward by the same number.
 
 ### 2. Vigenère Cipher
-Vigenère Cipher is a substitution technique that uses a keyword to encrypt the message. Each letter is shifted according to the corresponding letter of the key.
+Vigenère Cipher is a substitution technique that uses a keyword to encrypt the message. Each letter is shifted according to the matching letter of the key.
 
 The same keyword is used during decryption to recover the original message.
 
 ### 3. Rail Fence Cipher
-Rail Fence Cipher is a transposition technique. It rearranges the letters of the original message in a zigzag pattern across multiple rows (rails).
+Rail Fence Cipher is a transposition technique. It rearranges the letters of the message in a zigzag pattern across multiple rows (rails).
 
 During decryption, the letters are placed back in their original positions to recover the message.
 
