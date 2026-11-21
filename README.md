@@ -71,8 +71,6 @@ Cryptography-Practical-File/
 ├── Exp13_JohnTheRipper_PasswordAudit/
 ├── Exp14_SSH_Passwordless_Authentication/
 ├── README.md
-├── SCREENSHOT_GUIDE.md
-├── FINAL_SUBMISSION_CHECKLIST.md
 ├── requirements.txt
 └── .gitignore
 ```
